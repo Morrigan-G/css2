@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* *{ */
+    /* padding: 0; */
+    /* margin: 0;} */
+
+body{
+  background-color: rgb(208, 175, 240);
+  color: #57128f;
+
+  font-size: 16px;
+  font-weight: normal;
+  font-family: "Tinos", serif;
+
+}
+
+a{
+    color: rgb(196, 69, 107);
+    text-decoration: none;
+}
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ a:active {
+    color: aquamarine;
+ }
+ 
+
+
+.picture{
+    width: 300px;
+    border-radius: 42px;
+    box-shadow: 11px 4px 20px 5px rgba(0, 0, 0, 25);
+}
+
+.info p{
+    background-color: rgb(161, 202, 226);
+    padding: 10px;
+    border-style: double;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:rgb(228, 40, 212);
+    text-decoration: none;
+    /*text-transform: capitalize;*/
+    /*letter-spacing: 2px;*/
+    /*word-spacing: 26px;*/
+}
+
+/*Box model*/
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    padding-top: 50px;
+}
+.cont{
+    background: rgb(161, 202, 226);
+    /* padding: 15px; */
+    padding: 5px 60px;
+    color: rgb(228, 40, 212);
+    border: 5px dashed rgb(96, 13, 204);
+    border-radius: 20px;
+    /* border-top-style: dashed;
+    border-left-style: inset;
+    border-bottom-style: dotted;
+    border-right-style:double; */
+    margin: 50px;
+}
+
+.ssylka{
+    text-align: center;
+}
+
+.kalambur{
+    margin: 0px 230px;
+}
+
+
+
+.box-model{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-model >h2 {
+    text-align: center;
+}
+
+.box-model >div {
+    margin: auto;
+    background:black;
+    height: auto;
+    width: auto;
+    border: 2px solid rgb(93, 248, 222);
+    box-sizing:border-box;
+}
+
+
+.bg-one{
+    background: rgba(159, 185, 233, 0.925);
+    border-radius: 20px;
+}
+
+.bg-two{
+background: rgba(224, 33, 151, 0.39);
+border-radius: 20px;
+}
+
+.bg-three{
+background: hsla(347, 85%, 55%, 0.637);
+border-radius: 20px;
+text-align: center;
+}
+
+.card{
+    background: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.list{
+   padding: 0 20px; 
+}
+
+.list li{
+    margin-bottom: 10px;
+}
+
+.table{
+    width: 100%;
+    text-align: center;
+    border: 20px;
+    background: rgba(205, 144, 241, 0.884);
+    border-radius: 20px;
+}
+
+.table th{
+    padding-bottom: 20px;
+}
+
+.table td{
+    padding-bottom: 20px;
+}
+.mustit{
+    text-align: center;
+}
+
+.table td:nth-child(2){
+color: rgb(216, 27, 122);
+}
+
+.table tr:nth-child(even) {
+color: aqua;
+}
+
+.headnegr {
+    text-align: center;
+    margin-bottom: 200px;
+    margin-top: 500px;
+}
+
+.negr {
+    text-align: center;
+    list-style: none;
+}
+
+.suda{
+    color: rgba(0, 0, 0, 0.616);
+    border: 4px #751eafea solid;
+    box-sizing: border-box;
+}
+
+.table tr:nth-child() {
+    color: rgb(19, 173, 173);
+    }
+
+.formgroup label{
+    display: block;
+}
+
+.formgroup input{
+    background: transparent;
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    border-bottom: 2px solid black;
+    font-family: inherit;
+}
+
+.car-float{
+    text-align: center;
+}
+
+.row{
+    display: flex;
+
+}
+
+.row > .formgroup{
+    width: 100%;
+    text-align: center;
+}
+
+.info{
+    display: flex;
+}
+
+@media (max-width: 900px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.intromem {
+margin-left: 40px;
+}
+
+.button{
+    color: rgb(104, 217, 252);
+    background: rgb(44, 40, 30);
+    border: 2px solid black;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 0.9;
+}
+
+.position{
+    border: none;
+    margin-top: 30px;
+    padding: 20px;
+    height: 300px;
+}
+
+.korob{
+    position: fixed;
+    width: 100%;
+    top: 0;    
+    left: 0px;
+    border-radius: 50px;
+    height: 50px;
+    background: rgba(236, 73, 201, 0.527) ;
+    text-align: center;
+    font-size: small;
+}
